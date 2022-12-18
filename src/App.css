@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.user-box {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 40px 60px;
+  border-radius: 10px;
+  width: 800px
+  /*width: fit-content*/;/*se ajusta al tamano*/
+  margin: 0 auto;
+  background-color: #fff;
+}
+.user-box h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.user-box img {
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.user-box ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.user-box ul li {
+  margin-bottom: 10px;
+}
+.user-box ul li i {
+  margin-right: 10px;
+}
+.user-box button {
+  margin: 0 auto;
+  display: block;
+  /* padding: 20px; */
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 50%;
+  /*border: none;*/ /*elimina el borde*/
+  background: greenyellow;
+  
+}
+.Container-title{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Container-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container-Data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+.Container-Botton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  width: 400px;
+  height: 120px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
